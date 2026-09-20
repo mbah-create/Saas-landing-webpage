@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary: hsl(230,100%,50%);
+    --secondary: hsl(0,0%,100%);
+        --accent: hsl(230,100%,10%);
+        --black: hsl(0,0%,10%);
+        
+}
+
+
+button {
+    font: inherit;
+    border: 0;
+    cursor: pointer
+}
+
+header {
+    background-color: hsl(230,100%,10%);
+    line-height: 1.1;
+     border-radius: 8px;
+}
+
+#logo p {
+    color: hsl(0,0%,100%);
+    margin-left: 8px;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+#header-container {
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+    line-height: 1.1;
+}
+
+#navbar ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+    margin: 24px;
+     }
+
+#navbar a {
+    color: hsl(0,0%,100%);
+    text-decoration: none;
+    }
+
+#navbar a:hover {
+    color: hsl(230,100%,50%)
+}
+
+#navbar a:focus-visible {
+    outline: 2px solid blue;
+        outline-offset: 4px;
+}
+
+.page-wrapper {
+    display: grid;
+   grid-template-rows: auto 1fr auto;
+}
+
+body {
+    background-color: hsl(0,0%,100%);
+    font-family: inter, sans-serif;
+    font-size: 16px;
+    padding: 1px 24px 24px 24px;
+    line-height: 1.5;
+    }
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero h1 { 
+    padding: 0;
+}
+
+.hero p {
+    color: gray;
+    margin: 8px;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero a {
+    background-color: hsl(230,100%,50%);
+    color:hsl(0,0%,100%);
+    text-decoration: none;
+   max-width: 250px;
+padding: 8px;
+     border-radius: 16px;
+}
+
+.hero a:hover 
+    */section layout*/ 
+
+
+.hero a:focus-visible{
+    outline:2px solid var(--dominant);
+    outline-offset: 4px;
+   
+ }
+
+#service {
+    display: grid;
+    
+}
+
+#services h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 24px;
+    
+}
+
+.service-cards {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 16px;
+}
+
+.service-cards img {
+    max-width: 100%;
+    height: auto;
+}
+
+.service-cards p {
+    color: gray;
+    margin-bottom: 16px;
+    
+}
+
+.service-cards a {
+    background-color: hsl(230,100%,50%);
+    color:hsl(0,0%,100%);
+    text-decoration: none;
+padding: 8px;
+    border-radius: 16px;
+}
+
+#projects {
+    display: grid;
+}
+
+#projects h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.project-cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2px;
+    padding: 8px;
+}
+
+.project-card p {
+    color: gray;
+    margin-bottom: 16px;
+}
+
+.project-card a {
+    background-color: hsl(230,100%,50%);
+    color:hsl(0,0%,100%);
+    text-decoration: none;
+    border-radius: 16px;
+    padding: 8px;
+}
+
+.project-card {
+    padding: 25px;
+        border: 2px solid #ddd;
+    background-color: hsl(230,100%,10%);
+    border-radius: 8px;
+}
+
+.project-card h3 {
+    color: hsl(0,0%,100%);
+}
+
+
+#technologies h2 {
+     font-size: 24px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+#technologies {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+}
+
+#technologies p{
+    font-weight: 200
+}
+
+.technology-list {
+    display: grid;
+    grid-template-columns: repeat(3,1fr)
+}
+
+
+.technology-item {
+    border: 2px solid #ddd;
+    background-color: hsl(230,100%,10%);
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.technology-item h3 {
+    color: hsl(0,0%,100%);
+}
+
+.technology-item p {
+    color: gray;
+   margin-bottom: 16px;
+}
+
+.technology-item a {
+    background-color: hsl(230,100%,50%);
+    color:hsl(0,0%,100%);
+    text-decoration: none;
+    border-radius: 16px;
+    padding: 4px;
+    margin: 4px;
+}
+
+.technology-intro a {
+    background-color: hsl(230,100%,50%);
+    color:hsl(0,0%,100%);
+    text-decoration: none;
+   max-width: 250px;
+padding: 8px;
+     border-radius: 16px;
+}
+
+
+#industries h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+
+.industry-intro p {
+    color: hsl(0,0%,10%);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.industry-content a {
+   background-color: hsl(230,100%,50%);
+    color:hsl(0,0%,100%);
+    text-decoration: none;
+   max-width: 250px;
+padding: 8px;
+     border-radius: 16px;
+}
+
+.industry-intro {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.industry-list {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2px;
+}
+
+.industry-item {
+     border: 2px solid #ddd;
+    background-color: hsl(230,100%,10%);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.industry-item p {
+    color: gray;
+}
+
+.industry-item h3 {
+    color: hsl(0,0%,100%);
+}
+
+.industry-item a {
+    background-color: hsl(230,100%,50%);
+    color:hsl(0,0%,100%);
+    text-decoration: none;
+    border-radius: 16px;
+    padding: 4px;
+    margin: 4px;
+}
+
+#about h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.about-intro {
+     text-align: center;
+    margin-top: 20px;
+    font-weight: 200
+}
+
+.about-layout {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 16px;
+    margin-top: 25px;
+}
+
+.cards {
+    border: 2px solid #ddd;
+    background-color: hsl(230,100%,10%);
+    padding: 8px;
+}
+
+.cards p {
+    color: gray;
+    margin-bottom: 8px;
+}
+
+.cards h3 {
+     color: hsl(0,0%,100%);
+}
+
+.cards a {
+    background-color: hsl(230,100%,50%);
+    color:hsl(0,0%,100%);
+    text-decoration: none;
+    border-radius: 16px;
+    padding: 4px;
+    margin: 4px;
+}
+
+.contact-intro {
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 16px;
+   
+}
+.contact-form {
+    
+    margin-bottom: 25px;
+}
+
+#email-container label {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+#email-container input {
+    padding:16px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    font: inherit;
+}
+
+#email.container input a:focus-visible {
+    outline: 2px solid  hsl(230,100%,50%);
+    outline-offset: 4px;
+}
+
+#faq h2 {
+    text-align: center;
+    margin-top: 24px
+}
+
+.faq {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.faq-list  {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    
+}
+
+.faq-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.faq-item summary {
+    cursor: pointer;
+    font-weight: 600;
+    
+}
+
+.faq-item p {
+    margin-top: 16px;
+    line-height: 1.6;
+}
+
+#footer {
+    background: var( --black);
+    padding: var(--space-200);
+    margin-top: var(--space-300);
+}
+
+#footer nav ul {
+display: flex;
+flex-direction: column;
+gap: 8px;
+    list-style: none;
+}
+
+
+#footer a{
+    color: hsl(0,0%,100%);
+    text-decoration: none;
+ }
+
+#footer a:hover{
+    color: hsl(230,100%,50%);
+ }
+
+#footer p {
+    color: hsl(0,0%,100%);
+}
+
+
+ #footer a:focus-visible{
+    outline:2px solid #ddd;
+    outline-offset: 4px;
+    }
+
+@media (max-width: 768px) {
+
+    #navbar ul {
+        flex-direction: column;
+        
+    }
+
+}
+
