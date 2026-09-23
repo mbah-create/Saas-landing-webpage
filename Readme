@@ -1,0 +1,67 @@
+This is a solution to [A SAAS Landing Webpage (software as a service)]
+
+## Table of contents
+
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [AI Collaboration](#ai-collaboration)
+- [Author](#author)
+
+
+## Overview
+
+Well, i have taken a little major challenge as i continue to build and grow. 
+This is a Responsive landing webpage of saas websites (software as a service).. 
+
+## screenshots
+
+![mobile design](./screenshots/saas-mobile.png)
+![desktop design](./screenshots/saas-desktop.png)
+
+
+## My process. 
+Built with the following technologies.Some i was familiar while others i
+had to search,study and introduce to my project.
+
+- Semantic HTML5 markup
+- CSS3
+- CSS reset
+- :root color variables
+- Flexbox
+-Grid layout
+- safely use both flex and grid.
+- Desktop-first workflow
+- Responsive design
+- hover and focus visible
+
+
+
+### What I learned
+
+
+-How to understand your layout and what sections need to be in the
+@media query so you dont get overflow.
+-Positioning, debugging a layout/responsive-design problem.
+-How to code the FAQ section and style it.
+- how to use id's,section and class.
+- style button.
+- use label and stlye it.
+
+
+
+### Continued development
+ Well, i will keep improving on frontend while i study js and subssequently Python.
+
+### AI Collaboration
+
+I used chatgpt as a collaborator and as a learning assitant throughout this project.Rather than asking it to genertae the solutions and give me blogs of code,i used it to undertand HTML and CSS concepts such as CSS BOX model, flex box, respomsive images, dev tools,The expalaination helped me understand why certain techniques were used so that i could implement and the process.
+
+## Author
+
+- github - (https://github.com/mbah-create/gym-landing-page)
+- LinkedIn - [mbah fabrice](https://www.linkedin.com/in/mbah-fabrice-93849a379)
